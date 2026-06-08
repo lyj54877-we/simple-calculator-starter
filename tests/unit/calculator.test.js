@@ -1,5 +1,5 @@
 // 단위 테스트: 함수 하나를 격리해서 테스트
-import { add, subtract, calculate } from "../../src/calculator.js"; 
+import { add, subtract, calculate, multiply } from "../../src/calculator.js"; 
 describe("add", () => {
   test("두 양수를 더한다", () => {
     expect(add(2, 3)).toBe(5);

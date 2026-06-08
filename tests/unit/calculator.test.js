@@ -25,3 +25,11 @@ describe("subtract", () => {
     expect(subtract(3, 10)).toBe(-7);
   });
 });
+describe("multiply", () => {
+  test("두 수를 곱한다", () => {
+    expect(multiply(3, 4)).toBe(12);
+  });
+  test("0과의 곱은 0이다", () => {
+    expect(multiply(7, 0)).toBe(0);
+  });
+});
